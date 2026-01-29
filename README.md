@@ -1,4 +1,5 @@
-Proyecto DevJobs del curso de Laravel
+## Proyecto DevJobs del curso de Laravel
+### Tecnologias:
 
 - Laravel 11
 - Breeze

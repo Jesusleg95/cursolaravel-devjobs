@@ -1,0 +1,3 @@
+[submodule "laravel-validation-en-espanol"]
+	path = laravel-validation-en-espanol
+	url = https://github.com/MarcoGomesr/laravel-validation-en-espanol.git

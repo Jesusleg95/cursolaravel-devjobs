@@ -24,7 +24,7 @@
                 name="rol"
                 class="border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm w-full"
             >
-                <option value="">-- Selecciona un Rol --</option>
+                <option value="0">-- Selecciona un Rol --</option>
                 <option value="1">Developer - Obtener Empleo</option>
                 <option value="2">Recruiter - Publicar Empleo</option>
             </select>

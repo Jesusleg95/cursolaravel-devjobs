@@ -3,3 +3,5 @@
 
 - Laravel 11
 - Breeze
+- Livewire
+- Tailwind

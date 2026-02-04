@@ -10,7 +10,7 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     <h1    
-                        class="text-2xl font-bold text-center mb-10"
+                        class="text-2xl font-bold text-center my-10"
                     >
                         Publicar Vacante
                     </h1>

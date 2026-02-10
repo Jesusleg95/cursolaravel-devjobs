@@ -38,7 +38,7 @@ new class extends Component
                     </a>
 
                     <a 
-                        href="#"
+                        href="{{route('vacantes.edit', $vacante->id)}}"
                         class="bg-blue-800 py-2 text-center px-4 rounded-lg text-white text-xs font-bold uppercase"
                     >
                         Editar

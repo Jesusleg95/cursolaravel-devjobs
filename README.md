@@ -5,3 +5,4 @@
 - Breeze
 - Livewire
 - Tailwind
+- SweetAlert2

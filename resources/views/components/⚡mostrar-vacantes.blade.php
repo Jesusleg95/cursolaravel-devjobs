@@ -23,7 +23,7 @@ new class extends Component
             
             <div class="p-6 bg-white border-b border-gray-200 text-gray-900 md:flex md:justify-between md:items-center">
                 <div class="leading-10">
-                    <a href="#" class="text-xl font-bold">
+                    <a href="{{route('vacantes.show', $vacante->id)}}" class="text-xl font-bold">
                         {{$vacante->titulo}}
                     </a>
                     <p class="text-sm text-gray-600 font-bold">

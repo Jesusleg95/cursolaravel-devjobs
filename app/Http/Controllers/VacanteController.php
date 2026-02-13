@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Vacante;
-use Illuminate\Http\Request;
+// use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 
 class VacanteController extends Controller
@@ -27,9 +27,11 @@ class VacanteController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(Vacante $vacante)
     {
-        //
+        return view('vacantes.show', [
+            'vacante' => $vacante
+        ]);    
     }
 
     /**

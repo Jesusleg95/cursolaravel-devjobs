@@ -4,7 +4,7 @@ namespace App\Policies;
 
 use App\Models\User;
 use App\Models\Vacante;
-use Illuminate\Auth\Access\Response;
+// use Illuminate\Auth\Access\Response;
 
 class VacantePolicy
 {
@@ -13,7 +13,7 @@ class VacantePolicy
      */
     public function viewAny(User $user): bool
     {
-        return false;
+        return $user->rol == 2;
     }
 
     /**
@@ -29,7 +29,7 @@ class VacantePolicy
      */
     public function create(User $user): bool
     {
-        return false;
+        return $user->rol == 2;
     }
 
     /**

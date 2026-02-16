@@ -1,6 +1,7 @@
 <?php
 
 use Livewire\Component;
+use App\Models\Vacante;
 
 new class extends Component
 {
@@ -64,4 +65,10 @@ new class extends Component
             </p>
         </div>
     @endguest
+
+    @cannot('create', App\Models\Vacante::class)
+        <livewire:postular-vacante 
+            :vacante="$vacante"
+        />
+    @endcannot
 </div>
